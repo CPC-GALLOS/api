@@ -1,58 +1,54 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "properties": {
-    "Mexico": {
+  "additionalProperties": {
+    "type": "object",
+    "additionalProperties": {
       "type": "object",
-      "additionalProperties": {
-        "type": "object",
-        "properties": {
-          "clubs": {
-            "type": ["array", "null"],
-            "items": {
-              "type": "object",
-              "properties": {
-                "name": { "type": "string" },
-                "status": { "type": "string", "enum": ["activo", "inactivo"] },
-                "university": { "type": "string" },
-                "socialNetworks": {
-                  "type": "array",
-                  "items": {
-                    "type": "object"
-                  }
-                },
-                "resources": {
-                  "type": "array",
-                  "items": {
-                    "type": "object"
-                  }
-                },
-                "contacts": {
-                  "type": "array",
-                  "items": {
-                    "type": "object"
-                  }
-                },
-                "contests": {
-                  "type": "array",
-                  "items": {
-                    "type": "object"
-                  }
-                },
-                "trainingCamps": {
-                  "type": "array",
-                  "items": {
-                    "type": "object"
-                  }
+      "properties": {
+        "clubs": {
+          "type": ["array", "null"],
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "status": { "type": "string", "enum": ["activo", "inactivo"] },
+              "university": { "type": "string" },
+              "socialNetworks": {
+                "type": "array",
+                "items": {
+                  "type": "object"
                 }
               },
-              "required": ["name", "status"]
-            }
+              "resources": {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              },
+              "contacts": {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              },
+              "contests": {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              },
+              "trainingCamps": {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              }
+            },
+            "required": ["name", "status"]
           }
         }
       }
     }
-  },
-  "required": ["Mexico"],
-  "additionalProperties": false
+  }
 }

@@ -5,7 +5,7 @@ Static JSON API served via GitHub Pages (no build, tests, or lint toolchain). Da
 ## What this repo is
 
 - `index.json` — root directory listing API endpoints; bump `lastUpdated` (ISO date) when endpoints change.
-- `communities/` — competitive programming clubs in Mexico, keyed by state. One `data.json` + one `schema.json`.
+- `communities/` — competitive programming clubs, keyed by country, then state. One `data.json` + one `schema.json`.
 - `credentials/` — catalog of free certificates/programs/certifications/platforms. One `data.json`, one `schema.json`, plus `domains-categories.md` (human-readable enum reference) and a `index.html` test panel.
 - Served at `https://cpc-gallos.github.io/api/...` once merged to `main` (GitHub Pages auto-deploys).
 
@@ -18,8 +18,8 @@ Static JSON API served via GitHub Pages (no build, tests, or lint toolchain). Da
   - `type`: `program` | `certificate` | `certification` | `platform`
   - `domain`: `Technology & Computer Science` | `Languages` | `Business & Professional Development`
   - `category`: see the full enum in `schema.json` (also listed in `credentials/domains-categories.md`). Mismatch breaks schema validation.
-- `credentials/data.json` entries require: `id, name, provider, providerGroup, type, domain, category, url`. `id` is a kebab-case slug of the name. `image` is `""` when no logo. `tags` optional (values seen: `woman`, `mooc`).
-- In `communities/data.json`, every Mexican state is a top-level key (those without clubs use `"clubs": null`, don't omit them). Per-club required: `name`, `status` (`activo` | `inactivo`).
+- `credentials/data.json` entries require: `id, name, provider, providerGroup, type, domain, category, url`. `id` is a kebab-case slug of the name. `image` is `""` when no logo. `tags` optional (values seen: `woman`, `mooc`, `superbadge`, `python`, etc.).
+- In `communities/data.json`, every country is a top-level key, containing its states. States without clubs use `"clubs": null` (don't omit them). Per-club required: `name`, `status` (`activo` | `inactivo`).
 
 ## Verification (no toolchain — do it manually)
 
