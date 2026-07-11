@@ -27,7 +27,7 @@ Static JSON API served via GitHub Pages (no build, tests, or lint toolchain). Da
 
 - `python -m json.tool < file.json` or `jq . file.json` to confirm valid JSON before committing.
 - Validate against the schema with any JSON Schema 2020-12 validator (e.g. `ajv`) if available; otherwise cross-check enum values against `schema.json` by eye.
-- There are no tests, lint, typecheck, or build steps — do not invent them.
+- **CI Validation:** A GitHub Action workflow runs on every PR and push to `main` to validate all JSON files against their schemas using `ajv-cli`. Ensure your JSON is valid before pushing.
 
 ## Workflow
 

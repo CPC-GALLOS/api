@@ -1,5 +1,7 @@
 # api
 
+[![Validate JSON and Schemas](https://github.com/cpc-gallos/api/actions/workflows/validate-json.yml/badge.svg)](https://github.com/cpc-gallos/api/actions/workflows/validate-json.yml)
+
 API REST (GET) utilizando GitHub Pages para proveer archivos JSON a nuestras aplicaciones y página web.
 
 ## Convenciones
@@ -35,4 +37,6 @@ fetch('https://cpc-gallos.github.io/api/credentials/data.json')
 
 ## Contribuir
 
-Cualquier colaborador puede contribuir abriendo un PR para agregar o corregir información (clubes, certificados, comunidades). Para más detalles sobre cómo hacerlo, por favor revisa nuestra [guía de contribución](CONTRIBUTING.md).
+Cualquier colaborador puede contribuir abriendo un PR para agregar o corregir información (clubes, certificados, etc). Todo Pull Request es validado automáticamente por nuestro sistema de Integración Continua (CI) para asegurar que la estructura y el formato de los datos sean siempre correctos.
+
+Para más detalles sobre cómo hacerlo, por favor revisa nuestra [guía de contribución](CONTRIBUTING.md).

@@ -1,0 +1,38 @@
+name: Validate JSON and Schemas
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Install ajv-cli and ajv-formats
+        run: npm install -g ajv-cli ajv-formats
+        
+      - name: Validate index.json
+        run: |
+          jq empty index.json
+          ajv validate -s index.schema.json -d index.json --spec=draft2020 -c ajv-formats
+          
+      - name: Validate communities/data.json
+        run: |
+          jq empty communities/data.json
+          ajv validate -s communities/schema.json -d communities/data.json --spec=draft2020
+          
+      - name: Validate credentials/data.json
+        run: |
+          jq empty credentials/data.json
+          ajv validate -s credentials/schema.json -d credentials/data.json --spec=draft2020

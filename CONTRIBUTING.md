@@ -8,7 +8,8 @@ Al agregar o modificar datos, por favor respeta las siguientes reglas de idioma:
 
 - **Las claves (keys) del JSON van en inglés:** e.g., `id`, `name`, `description`.
 - **Los valores y el contenido van en español:** La información que leerán los usuarios debe estar en español.
-- **Esquemas JSON (Schemas):** Todos los archivos `schema.json` que crees deben utilizar el estándar `2020-12` para mantener la consistencia en todo el repositorio. Asegúrate de incluir en la primera línea: `"$schema": "https://json-schema.org/draft/2020-12/schema"`.
+- **Validación con Esquemas JSON (Schemas):** Todos los archivos de datos (`index.json`, `data.json`) deben incluir la propiedad `"$schema"` en su raíz apuntando a su esquema correspondiente.
+- **Creación de Esquemas:** Todo esquema nuevo debe utilizar el estándar `2020-12` (`"$schema": "https://json-schema.org/draft/2020-12/schema"`), definir un `"$id"` absoluto y validar la estructura completa del archivo.
 
 ## Cómo contribuir
 
@@ -36,4 +37,6 @@ Para agregar nuevos datos o corregir información existente (como clubes, certif
 
 6. **Abre un Pull Request (PR)** en este repositorio explicando brevemente los cambios que realizaste.
 
-Una vez revisado, tu PR será fusionado y los datos estarán disponibles automáticamente a través de GitHub Pages.
+> 💡 **Nota sobre Integración Continua (CI):** Cuando abras tu Pull Request, GitHub Actions validará automáticamente que el formato de tus archivos JSON cumpla con nuestros esquemas. Si la prueba falla (aparecerá una "X" roja en tu PR), revisa los detalles, haz la corrección necesaria y sube un nuevo commit; el CI volverá a validar automáticamente.
+
+Una vez que las validaciones pasen y tu PR sea aprobado, será fusionado y los datos estarán disponibles automáticamente a través de GitHub Pages.
