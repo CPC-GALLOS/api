@@ -1,4 +1,5 @@
 {
+    "$schema": "index.schema.json",
     "apiName": "CPC-Gallos API",
     "version": "1.0.0",
     "description": "API pública de datos recaudados por CPC-Gallos",

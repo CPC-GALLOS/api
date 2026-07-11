@@ -1,0 +1,39 @@
+{
+  "$id": "https://cpc-gallos.github.io/api/index.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "API Index",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "apiName": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "endpoints": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "required": [
+    "apiName",
+    "version",
+    "description",
+    "endpoints",
+    "lastUpdated"
+  ],
+  "additionalProperties": false
+}

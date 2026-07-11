@@ -13,9 +13,11 @@ Para mantener un estándar profesional:
 
 Los datos se sirven estáticamente como archivos JSON:
 
-- `https://cpc-gallos.github.io/api/index.json` - **Directorio principal** con la información de la API y rutas a todos los endpoints disponibles.
-- `https://cpc-gallos.github.io/api/credentials/data.json` - Datos de certificados.
-- `https://cpc-gallos.github.io/api/communities/data.json` - Datos de comunidades de programación competitiva.
+- `https://cpc-gallos.github.io/api/index.json` - **Directorio principal** con la información de la API y rutas a todos los endpoints disponibles. (Validado por `index.schema.json`).
+- `https://cpc-gallos.github.io/api/credentials/data.json` - Datos de certificados. (Validado por `schema.json`).
+- `https://cpc-gallos.github.io/api/communities/data.json` - Datos de comunidades de programación competitiva. (Validado por `schema.json`).
+
+> **Tip para desarrolladores:** Cada endpoint cuenta con su propio esquema JSON (`schema.json`). Puedes usarlos para validar las respuestas o para generar tipados estáticos (ej. interfaces de TypeScript) automáticamente en tus aplicaciones.
 
 ## Ejemplo de uso (fetch)
 

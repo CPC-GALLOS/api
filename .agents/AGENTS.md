@@ -4,7 +4,7 @@ Static JSON API served via GitHub Pages (no build, tests, or lint toolchain). Da
 
 ## What this repo is
 
-- `index.json` — root directory listing API endpoints; bump `lastUpdated` (ISO date) when endpoints change.
+- `index.json` — root directory listing API endpoints; bump `lastUpdated` (ISO date) when endpoints change. Validated by `index.schema.json`.
 - `communities/` — competitive programming clubs, keyed by country, then state. One `data.json` + one `schema.json`.
 - `credentials/` — catalog of free certificates/programs/certifications/platforms. One `data.json`, one `schema.json`, plus `domains-categories.md` (human-readable enum reference) and a `index.html` test panel.
 - Served at `https://cpc-gallos.github.io/api/...` once merged to `main` (GitHub Pages auto-deploys).
@@ -12,7 +12,9 @@ Static JSON API served via GitHub Pages (no build, tests, or lint toolchain). Da
 ## Conventions to follow (from CONTRIBUTING.md — verify before editing)
 
 - **JSON keys in English** (`name`, `description`, `provider`); **values in Spanish.**
-- All `schema.json` must use draft `2020-12`: first line `"$schema": "https://json-schema.org/draft/2020-12/schema"`.
+- All JSON data files (`index.json`, `data.json`) must reference their schema at the root: `"$schema": "schema.json"` (or `index.schema.json`).
+- All schemas must use draft `2020-12` and define an absolute `$id`. E.g.: `"$id": "https://cpc-gallos.github.io/api/credentials/schema.json"`, followed by `"$schema": "https://json-schema.org/draft/2020-12/schema"`.
+- Schemas describe the *entire* file structure (e.g., `credentials/schema.json` defines the `credentials` array at its root).
 - When adding a credential, every enum value must match `credentials/schema.json` exactly:
   - `providerGroup`: `Big Tech` | `Enterprise Tech` | `Government` | `University` | `Other`
   - `type`: `program` | `certificate` | `certification` | `platform`
