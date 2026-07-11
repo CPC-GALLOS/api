@@ -35,4 +35,4 @@ jobs:
       - name: Validate credentials/data.json
         run: |
           jq empty credentials/data.json
-          ajv validate -s credentials/schema.json -d credentials/data.json --spec=draft2020
+          ajv validate -s credentials/schema.json -d credentials/data.json --spec=draft2020 -c ajv-formats
