@@ -350,7 +350,8 @@
           "university": "Universidad Autónoma del Estado de Hidalgo",
           "socialNetworks": [
             {
-              "facebook": "https://www.facebook.com/ICBIUAEHOficial"
+              "facebook": "https://www.facebook.com/ICBIUAEHOficial",
+              "linkedin": "https://www.linkedin.com/company/club-de-pogramación-competitiva-uaeh/"
             }
           ],
           "resources": [
@@ -681,10 +682,16 @@
         {
           "name": "Club de Algoritmos de Sinaloa",
           "status": "activo",
-          "university": "Tecnológico Nacional de México Campus Culiacán",
+          "university": "Instituto Tecnológico de Culiacán, Facultad de Informática de la Universidad Autónoma de Sinaloa Unidad Mazatlán",
           "socialNetworks": [
             {
-              "website": "https://algoritmos.club/"
+              "website": "https://algoritmos.club/",
+              "facebook": "https://www.facebook.com/algoritmos.club"
+            }
+          ],
+          "resources": [
+            {
+              "github": "https://github.com/club-de-algoritmos"
             }
           ],
           "contacts": [
