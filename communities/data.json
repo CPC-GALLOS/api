@@ -49,6 +49,11 @@
           "name": "Red de Programación Competitiva UAA",
           "status": "inactivo",
           "university": "Universidad Autónoma de Aguascalientes"
+        },
+        {
+          "name": "Club de Algoritmia UP",
+          "status": "inactivo",
+          "university": "Universidad Panamericana Campus Aguascalientes"
         }
       ]
     },
@@ -469,6 +474,16 @@
               "github": "https://github.com/Club-Algoritmia-CUValles/"
             }
           ]
+        },
+        {
+          "name": "Club de Algoritmia Tec de Monterrey Campus Guadalajara",
+          "status": "inactivo",
+          "university": "Tecnológico de Monterrey Campus Guadalajara"
+        },
+        {
+          "name": "Club de Algoritmia UP",
+          "status": "inactivo",
+          "university": "Universidad Panamericana Campus Guadalajara"
         }
       ]
     },
