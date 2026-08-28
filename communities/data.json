@@ -296,7 +296,7 @@
         },
         {
           "name": "PU++",
-          "status": "inactivo",
+          "status": "activo",
           "university": "Universidad Nacional Autónoma de México",
           "socialNetworks": [
             {
@@ -305,13 +305,14 @@
           ],
           "resources": [
             {
-              "google_drive": "https://drive.google.com/drive/folders/102ieishfTjxw0nq-Q0vs3E3AITbA5oYZ"
+              "google_drive": "https://drive.google.com/drive/folders/102ieishfTjxw0nq-Q0vs3E3AITbA5oYZ",
+              "discord_antiguo": "https://discord.com/invite/bAgCEr4"
             }
           ],
           "contacts": [
             {
               "email": "mailto:clubpumasmas@gmail.com",
-              "discord": "https://discord.com/invite/bAgCEr4"
+              "discord": "https://discord.gg/AWmm59ADa"
             }
           ],
           "contests": [
