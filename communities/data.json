@@ -52,8 +52,13 @@
         },
         {
           "name": "Club de Algoritmia UP",
-          "status": "inactivo",
-          "university": "Universidad Panamericana Campus Aguascalientes"
+          "status": "activo",
+          "university": "Universidad Panamericana Campus Bonaterra",
+          "socialNetworks": [
+            {
+              "instagram": "https://www.instagram.com/algoritmia_up"
+            }
+          ]
         }
       ]
     },
