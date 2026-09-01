@@ -29,6 +29,16 @@
           ]
         },
         {
+          "name": "Algoritmia UP",
+          "status": "activo",
+          "university": "Universidad Panamericana Campus Bonaterra",
+          "socialNetworks": [
+            {
+              "instagram": "https://www.instagram.com/algoritmia_up"
+            }
+          ]
+        },
+        {
           "name": "Colmena-Competitiva",
           "status": "inactivo",
           "university": "Universidad Autónoma de Aguascalientes",
@@ -49,16 +59,6 @@
           "name": "Red de Programación Competitiva UAA",
           "status": "inactivo",
           "university": "Universidad Autónoma de Aguascalientes"
-        },
-        {
-          "name": "Club de Algoritmia UP",
-          "status": "activo",
-          "university": "Universidad Panamericana Campus Bonaterra",
-          "socialNetworks": [
-            {
-              "instagram": "https://www.instagram.com/algoritmia_up"
-            }
-          ]
         }
       ]
     },
@@ -260,6 +260,33 @@
           ]
         },
         {
+          "name": "PU++",
+          "status": "activo",
+          "university": "Universidad Nacional Autónoma de México",
+          "socialNetworks": [
+            {
+              "website": "https://sistemas.fciencias.unam.mx/~acm2014/"
+            }
+          ],
+          "resources": [
+            {
+              "google_drive": "https://drive.google.com/drive/folders/102ieishfTjxw0nq-Q0vs3E3AITbA5oYZ",
+              "discord_antiguo": "https://discord.com/invite/bAgCEr4"
+            }
+          ],
+          "contacts": [
+            {
+              "email": "mailto:clubpumasmas@gmail.com",
+              "discord": "https://discord.gg/AWmm59ADa"
+            }
+          ],
+          "contests": [
+            {
+              "concurso_de_la_facultad_de_ciencias": "https://sistemas.fciencias.unam.mx/~acm2014/concursos.html"
+            }
+          ]
+        },
+        {
           "name": "Club de algoritmia UPIICSA",
           "status": "inactivo",
           "university": "Instituto Politécnico Nacional",
@@ -296,33 +323,6 @@
           "socialNetworks": [
             {
               "facebook": "https://www.facebook.com/pumasmasOG/"
-            }
-          ]
-        },
-        {
-          "name": "PU++",
-          "status": "activo",
-          "university": "Universidad Nacional Autónoma de México",
-          "socialNetworks": [
-            {
-              "website": "https://sistemas.fciencias.unam.mx/~acm2014/"
-            }
-          ],
-          "resources": [
-            {
-              "google_drive": "https://drive.google.com/drive/folders/102ieishfTjxw0nq-Q0vs3E3AITbA5oYZ",
-              "discord_antiguo": "https://discord.com/invite/bAgCEr4"
-            }
-          ],
-          "contacts": [
-            {
-              "email": "mailto:clubpumasmas@gmail.com",
-              "discord": "https://discord.gg/AWmm59ADa"
-            }
-          ],
-          "contests": [
-            {
-              "concurso_de_la_facultad_de_ciencias": "https://sistemas.fciencias.unam.mx/~acm2014/concursos.html"
             }
           ]
         }
