@@ -36,6 +36,17 @@
             {
               "instagram": "https://www.instagram.com/algoritmia_up"
             }
+          ],
+          "resources": [
+            {
+              "google_drive": "https://drive.google.com/drive/folders/1VAklGfesOqmXQSseplIfy3CKVbcFGjUB?usp=sharing",
+              "github": "https://github.com/Murinho/CP-Notebook"
+            }
+          ],
+          "contacts": [
+            {
+              "whatsapp": "https://chat.whatsapp.com/KElsbiH03mU7h7cotCpvTI"
+            }
           ]
         },
         {
@@ -229,23 +240,33 @@
           "university": "Instituto Politécnico Nacional",
           "socialNetworks": [
             {
-              "website": "https://escom-ipn.hosting.acm.org/blog/"
+              "facebook": "https://www.facebook.com/algoritmiaescom/",
+              "instagram": "https://www.instagram.com/algoritmiaescom"
             }
           ],
           "resources": [
             {
-              "youtube": "https://www.youtube.com/@algoritmiaESCOM"
+              "youtube": "https://www.youtube.com/@algoritmiaESCOM",
+              "proyecto_nutria": "https://proyectonutria.notion.site/",
+              "huron_os": "https://huronos.org/",
+              "website_antiguo": "https://escom-ipn.hosting.acm.org/blog/"
             }
           ],
           "contacts": [
             {
+              "email": "mailto:algoritmiaescom@gmail.com",
               "phone": "Phone:57296000 Ext. 52022"
+            }
+          ],
+          "contests": [
+            {
+              "concurso_donald_knuth": "https://algoritmiaescom.eakdemy.com/xviiidonaldknuth/"
             }
           ],
           "trainingCamps": [
             {
               "invierno_de_entrenamiento": "https://algoritmiaescom.eakdemy.com/invierno2025/",
-              "verano_de_entrenamiento": "https://algoritmiaescom.eakdemy.com/"
+              "verano_de_entrenamiento": "https://algoritmiaescom.eakdemy.com/verano2026/"
             }
           ]
         },
