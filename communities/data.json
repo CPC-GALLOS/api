@@ -273,25 +273,39 @@
         {
           "name": "CPC FI",
           "status": "activo",
-          "university": "Universidad Nacional Autónoma de México",
+          "university": "Universidad Nacional Autónoma de México, Facultad de Ingeniería",
           "socialNetworks": [
             {
-              "website": "www.cpcfi.unam.mx"
+              "facebook": "https://www.facebook.com/profile.php?id=100078157784809",
+              "instagram": "https://www.instagram.com/cpcfi.unam/",
+              "website": "http://www.cpcfi.unam.mx"
+            }
+          ],
+          "resources": [
+            {
+              "github": "https://github.com/CPCFI-org",
+              "youtube": "https://www.youtube.com/@cpcfi"
+            }
+          ],
+          "contacts": [
+            {
+              "email": "mailto:cpcfi@fi.unam.edu"
             }
           ]
         },
         {
           "name": "PU++",
           "status": "activo",
-          "university": "Universidad Nacional Autónoma de México",
+          "university": "Universidad Nacional Autónoma de México, Facultad de Ciencias",
           "socialNetworks": [
             {
-              "website": "https://sistemas.fciencias.unam.mx/~acm2014/"
+              "instagram": "https://www.instagram.com/pumasmas.fcunam/"
             }
           ],
           "resources": [
             {
               "google_drive": "https://drive.google.com/drive/folders/102ieishfTjxw0nq-Q0vs3E3AITbA5oYZ",
+              "website_antiguo": "https://sistemas.fciencias.unam.mx/~acm2014/",
               "discord_antiguo": "https://discord.com/invite/bAgCEr4"
             }
           ],
