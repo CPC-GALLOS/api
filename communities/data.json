@@ -828,6 +828,31 @@
               "email": "mailto:cepc.itver@gmail.com"
             }
           ]
+        },
+        {
+          "name": "Club de Programación Competitiva ITVer",
+          "status": "inactivo",
+          "university": "Instituto Tecnológico de Veracruz",
+          "socialNetworks": [
+            {
+              "facebook": "https://www.facebook.com/profile.php?id=100090307599323"
+            }
+          ]
+        },
+        {
+          "name": "Club de Programación Bits&Code",
+          "status": "activo",
+          "university": "Universidad Veracruzana, Campus Coatzacoalcos",
+          "socialNetworks": [
+            {
+              "website": "https://www.uv.mx/personal/jvergara/portafolio-proyecto-aula/"
+            }
+          ],
+          "contacts": [
+            {
+              "email": "mailto:jvergara@uv.mx"
+            }
+          ]
         }
       ]
     },
