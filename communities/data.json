@@ -9,12 +9,19 @@
           "university": "Universidad Autónoma de Aguascalientes",
           "socialNetworks": [
             {
+              "facebook": "https://www.facebook.com/people/CPC-Gallos/61563419165843/",
+              "instagram": "https://www.instagram.com/cpc.gallos",
+              "linkedin": "https://www.linkedin.com/company/cpc-gallos",
               "website": "https://cpc-gallos.github.io/"
             }
           ],
           "resources": [
             {
-              "presentations": "https://cpc-gallos.github.io/blog/Presentaciones/"
+              "github": "https://github.com/CPC-GALLOS",
+              "notebook": "https://github.com/CPC-GALLOS/Notebook",
+              "presentations": "https://cpc-gallos.github.io/blog/Presentaciones/",
+              "repositorio_antiguo": "https://github.com/Chisrra/GALLOS",
+              "youtube": "https://www.youtube.com/@CPC-GALLOS"
             }
           ],
           "contacts": [
@@ -246,6 +253,7 @@
           ],
           "resources": [
             {
+              "github": "https://github.com/algoritmiaescom",
               "youtube": "https://www.youtube.com/@algoritmiaESCOM",
               "proyecto_nutria": "https://proyectonutria.notion.site/",
               "huron_os": "https://huronos.org/",
@@ -332,26 +340,6 @@
           ]
         },
         {
-          "name": "Club de algoritmia UPIIZ-IPN",
-          "status": "inactivo",
-          "university": "Instituto Politécnico Nacional",
-          "socialNetworks": [
-            {
-              "website": "https://caupiiz.github.io/2701/"
-            }
-          ],
-          "resources": [
-            {
-              "github": "https://github.com/caupiiz"
-            }
-          ],
-          "contacts": [
-            {
-              "grupo_facebook": "https://www.facebook.com/groups/clubalgoritmiaupiizipn"
-            }
-          ]
-        },
-        {
           "name": "Programación Competitiva UNAM",
           "status": "inactivo",
           "university": "Universidad Nacional Autónoma de México",
@@ -420,27 +408,6 @@
               "Campamento_de_Otoño": "https://www.facebook.com/ICBIUAEHOficial/photos/-el-club-de-programaci%C3%B3n-competitiva-te-invita-a-su-campamentolugar-sala-de-usos/1029207925675719/"
             }
           ]
-        },
-        {
-          "name": "Algoritmia Avanzada Y Programación Competitiva (Algoritmia-Acatlan GUAPA)",
-          "status": "activo",
-          "university": "Universidad Nacional Autónoma de México",
-          "socialNetworks": [
-            {
-              "website": "https://club-de-algoritmia-acatlan-guapa.github.io/"
-            }
-          ],
-          "resources": [
-            {
-              "github": "https://github.com/Club-de-Algoritmia-Acatlan-GUAPA/"
-            }
-          ],
-          "contacts": [
-            {
-              "email": "mailto:programacion.competitiva@acatlan.unam.mx",
-              "discord": "https://discord.gg/EJKBpR2"
-            }
-          ]
         }
       ]
     },
@@ -477,11 +444,13 @@
           "university": "Universidad de Guadalajara",
           "socialNetworks": [
             {
+              "facebook": "https://www.facebook.com/ClubAlgoritmiaCUCEI",
               "website": "https://algoritmia.club/"
             }
           ],
           "resources": [
             {
+              "github": "https://github.com/Club-de-Algoritmia-CUCEI",
               "youtube": "https://www.youtube.com/@clubalgoritmiacuceicac6204",
               "google_drive_2023": "https://drive.google.com/drive/folders/19O2Cykuk5HtxvbHT1Ixf1uOR8H3QdS0_",
               "google_drive_2024": "https://drive.google.com/drive/folders/1iV_VFbMpodIqZWTOoqZYBhbsbimjyFtg"
@@ -552,13 +521,33 @@
               "contactos_notion": "https://sheer-cloudberry-f14.notion.site/e3e3d13bfee74ef8b999077624cebfa3?v=2074c565fca24775adad8ef1ec4603fb"
             }
           ]
+        },
+        {
+          "name": "Algoritmia Avanzada Y Programación Competitiva (Algoritmia-Acatlan GUAPA)",
+          "status": "inactivo",
+          "university": "Universidad Nacional Autónoma de México, FES Acatlán",
+          "socialNetworks": [
+            {
+              "website": "https://club-de-algoritmia-acatlan-guapa.github.io/"
+            }
+          ],
+          "resources": [
+            {
+              "github": "https://github.com/Club-de-Algoritmia-Acatlan-GUAPA/"
+            }
+          ],
+          "contacts": [
+            {
+              "email": "mailto:programacion.competitiva@acatlan.unam.mx"
+            }
+          ]
         }
       ]
     },
     "Michoacán": {
       "clubs": [
         {
-          "name": "Algortmia ITM",
+          "name": "Algoritmia ITM",
           "status": "activo",
           "university": "Instituto Tecnológico Nacional de México, Campus Morelia",
           "socialNetworks": [
@@ -681,7 +670,7 @@
           "socialNetworks": [
             {
               "facebook": "https://www.facebook.com/CPUpaep",
-              "instagram": "https://www.instagram.com/cpupaep//"
+              "instagram": "https://www.instagram.com/cpupaep/"
             }
           ],
           "resources": [
@@ -805,6 +794,18 @@
               "Hack_IT_UP": "#Hack_It_Up_es_un_concurso_privado"
             }
           ]
+        },
+        {
+          "name": "Capítulo Estudiantil UAT ACM",
+          "status": "inactivo",
+          "university": "Universidad Autónoma de Tamaulipas, Facultad de Ingeniería",
+          "socialNetworks": [
+            {
+              "facebook": "https://www.facebook.com/UATACM/",
+              "instagram": "https://www.instagram.com/uatacm/",
+              "website": "https://uat.acm.org/index.html"
+            }
+          ]
         }
       ]
     },
@@ -848,7 +849,7 @@
           ],
           "contacts": [
             {
-              "discord": "https://discord.gg/5QWvqerS"
+              "discord": "https://discord.com/invite/rxVhJMKPQD"
             }
           ],
           "contests": [
@@ -867,12 +868,35 @@
           "university": "Universidad Autónoma de Zacatecas",
           "socialNetworks": [
             {
+              "facebook": "https://www.facebook.com/clubpcuaz",
               "website": "https://www.progcompetitivauaz.club/"
             }
           ],
           "contacts": [
             {
               "email": "mailto:rsolis@uaz.edu.mx"
+            }
+          ]
+        },
+        {
+          "name": "Club de algoritmia UPIIZ-IPN",
+          "status": "inactivo",
+          "university": "Instituto Politécnico Nacional, Campus Zacatecas",
+          "socialNetworks": [
+            {
+              "website": "https://caupiiz.github.io/2701/"
+            }
+          ],
+          "resources": [
+            {
+              "curso_github": "https://github.com/caupiiz/club-algoritmia-upiiz",
+              "github": "https://github.com/caupiiz"
+            }
+          ],
+          "contacts": [
+            {
+              "email": "mailto:club.algoritmia.upiiz@gmail.com",
+              "grupo_facebook": "https://www.facebook.com/groups/clubalgoritmiaupiizipn"
             }
           ]
         }
