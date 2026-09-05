@@ -47,7 +47,8 @@
           "resources": [
             {
               "google_drive": "https://drive.google.com/drive/folders/1VAklGfesOqmXQSseplIfy3CKVbcFGjUB?usp=sharing",
-              "github": "https://github.com/Murinho/CP-Notebook"
+              "github": "https://github.com/Murinho/CP-Notebook",
+              "guia_referencia_cpp": "https://comp-programming.netlify.app/"
             }
           ],
           "contacts": [
