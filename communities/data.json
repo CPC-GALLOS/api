@@ -866,17 +866,22 @@
           "university": "Universidad Autónoma de Yucatán",
           "socialNetworks": [
             {
+              "facebook": "https://www.facebook.com/profile.php?id=61593974763854",
+              "instagram": "https://www.instagram.com/cpcuady/",
               "website": "https://sites.google.com/view/cpcfmat-uady"
             }
           ],
           "resources": [
             {
-              "presentations": "https://sites.google.com/view/cpcfmat-uady/entrenamientos/iniciaci%C3%B3n"
+              "presentations": "https://sites.google.com/view/cpcfmat-uady/entrenamientos/iniciaci%C3%B3n",
+              "youtube": "https://www.youtube.com/@CPCUADY"
             }
           ],
           "contacts": [
             {
-              "discord": "https://discord.com/invite/rxVhJMKPQD"
+              "discord": "https://discord.com/invite/rxVhJMKPQD",
+              "email": "mailto:cpc.uady@gmail.com",
+              "whatsapp": "https://chat.whatsapp.com/Hsx4eljhtGOGkpap6PST8s"
             }
           ],
           "contests": [
