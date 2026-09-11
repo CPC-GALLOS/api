@@ -380,9 +380,9 @@
     "Hidalgo": {
       "clubs": [
         {
-          "name": "CPC ICBI/UAEH",
+          "name": "CPC UAEH",
           "status": "activo",
-          "university": "Universidad Autónoma del Estado de Hidalgo",
+          "university": "Universidad Autónoma del Estado de Hidalgo (ICBI)",
           "socialNetworks": [
             {
               "facebook": "https://www.facebook.com/ICBIUAEHOficial",
@@ -391,7 +391,10 @@
           ],
           "resources": [
             {
-              "juez": "https://cpcjudge.com/"
+              "judge": "https://cpcjudge.com/",
+              "presentations": "https://github.com/KaarLarax/CPC-UAEH-Clases",
+              "github": "https://github.com/cpc-uaeh",
+              "youtube": "https://www.youtube.com/@CPC-UAEH"
             }
           ],
           "contacts": [
