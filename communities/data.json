@@ -17,10 +17,12 @@
           ],
           "resources": [
             {
+              "codeforces": "https://codeforces.com/group/b3gKGxWtjA/",
               "github": "https://github.com/CPC-GALLOS",
               "notebook": "https://github.com/CPC-GALLOS/Notebook",
               "presentations": "https://cpc-gallos.github.io/blog/Presentaciones/",
               "repositorio_antiguo": "https://github.com/Chisrra/GALLOS",
+              "vjudge": "https://vjudge.net/group/cpc-gallos",
               "youtube": "https://www.youtube.com/@CPC-GALLOS"
             }
           ],
