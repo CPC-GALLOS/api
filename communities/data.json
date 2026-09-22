@@ -118,7 +118,8 @@
           "socialNetworks": [
             {
               "facebook": "https://www.facebook.com/ctrl.coders",
-              "instagram": "https://www.instagram.com/ctrl.coders/"
+              "instagram": "https://www.instagram.com/ctrl.coders/",
+              "website": "https://ctrlcoders.com/"
             }
           ],
           "contacts": [
@@ -587,6 +588,16 @@
           "contests": [
             {
               "Coding_Cup_Michoacán": "https://codingcupmichoacan.org/"
+            }
+          ]
+        },
+        {
+          "name": "Club de Algoritmia de la FIE",
+          "status": "activo",
+          "university": "Universidad Michoacana de San Nicolás de Hidalgo, Facultad de Ingeniería Eléctrica",
+          "socialNetworks": [
+            {
+              "instagram": "https://www.instagram.com/club_fie_algoritmia/"
             }
           ]
         }
