@@ -169,3 +169,4 @@ Product Management
 ## Languages
 
 English
+Portuguese
