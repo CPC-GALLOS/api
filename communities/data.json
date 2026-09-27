@@ -291,6 +291,7 @@
             {
               "facebook": "https://www.facebook.com/profile.php?id=100078157784809",
               "instagram": "https://www.instagram.com/cpcfi.unam/",
+              "linkedin": "https://www.linkedin.com/company/cpcfi-unam/",
               "website": "http://www.cpcfi.unam.mx"
             }
           ],
@@ -534,16 +535,18 @@
         },
         {
           "name": "Algoritmia Avanzada Y Programación Competitiva (Algoritmia-Acatlan GUAPA)",
-          "status": "inactivo",
+          "status": "activo",
           "university": "Universidad Nacional Autónoma de México, FES Acatlán",
           "socialNetworks": [
             {
+              "linkedin": "https://www.linkedin.com/in/guapa-algor%C3%ADtmia-y-programaci%C3%B3n-avanzada/",
               "website": "https://club-de-algoritmia-acatlan-guapa.github.io/"
             }
           ],
           "resources": [
             {
-              "github": "https://github.com/Club-de-Algoritmia-Acatlan-GUAPA/"
+              "github": "https://github.com/Club-de-Algoritmia-Acatlan-GUAPA/",
+              "judge": "https://guinijuez.org/"
             }
           ],
           "contacts": [
