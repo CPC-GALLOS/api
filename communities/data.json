@@ -268,7 +268,7 @@
           "contacts": [
             {
               "email": "mailto:algoritmiaescom@gmail.com",
-              "phone": "Phone:57296000 Ext. 52022"
+              "phone": "phone:57296000;52022"
             }
           ],
           "contests": [
@@ -355,6 +355,16 @@
               "facebook": "https://www.facebook.com/pumasmasOG/"
             }
           ]
+        },
+        {
+          "name": "Club de Algoritmia y Programación ITI3",
+          "status": "inactivo",
+          "university": "Tecnológico Nacional de México, Campus Iztapalapa III",
+          "socialNetworks": [
+            {
+              "instagram": "https://www.instagram.com/tecnm_development_club_iti3/"
+            }
+          ]
         }
       ]
     },
@@ -435,7 +445,7 @@
           ],
           "contacts": [
             {
-              "phone": "phone: +52 33 3669 3434"
+              "phone": "phone:+523336693434"
             }
           ],
           "contests": [
@@ -456,6 +466,7 @@
           "socialNetworks": [
             {
               "facebook": "https://www.facebook.com/ClubAlgoritmiaCUCEI",
+              "linkedin": "https://www.linkedin.com/company/club-de-algoritmia-cucei/",
               "website": "https://algoritmia.club/"
             }
           ],
@@ -499,7 +510,13 @@
         {
           "name": "Club de Algoritmia Tec de Monterrey Campus Guadalajara",
           "status": "inactivo",
-          "university": "Tecnológico de Monterrey Campus Guadalajara"
+          "university": "Tecnológico de Monterrey Campus Guadalajara",
+          "socialNetworks": [
+            {
+              "instagram": "https://www.instagram.com/catec.gdl/",
+              "linkedin": "https://www.linkedin.com/company/club-de-algoritmia-tec-gdl/"
+            }
+          ]
         },
         {
           "name": "Club de Algoritmia UP",
@@ -571,7 +588,7 @@
           ],
           "contacts": [
             {
-              "phone": "Phone:4434975076"
+              "phone": "phone:+524434975076"
             }
           ]
         },
@@ -602,6 +619,21 @@
           "socialNetworks": [
             {
               "instagram": "https://www.instagram.com/club_fie_algoritmia/"
+            }
+          ]
+        },
+        {
+          "name": "Club de Algoritmia CETAC 09",
+          "status": "inactivo",
+          "university": "Centro de Estudios Tecnológicos en Aguas Continentales No. 09, Pátzcuaro",
+          "socialNetworks": [
+            {
+              "instagram": "https://www.instagram.com/algoritmia_cetac09/"
+            }
+          ],
+          "contacts": [
+            {
+              "phone": "phone:+524341074309"
             }
           ]
         }
@@ -712,11 +744,39 @@
               "Maratón_de_programación_competitiva": "https://eventos.upaep.mx/evento/encuentro-de-ingenierias"
             }
           ]
+        },
+        {
+          "name": "Club de Programación ISIC - ITSH Java-Limo++",
+          "status": "activo",
+          "university": "Instituto Tecnológico Superior de Huauchinango",
+          "socialNetworks": [
+            {
+              "facebook": "https://www.facebook.com/javalimocpp/",
+              "instagram": "https://www.instagram.com/javalimocpp/",
+              "website": "https://javalimos.org/"
+            }
+          ],
+          "contacts": [
+            {
+              "phone": "phone:+524351207883"
+            }
+          ]
         }
       ]
     },
     "Querétaro": {
-      "clubs": null
+      "clubs": [
+        {
+          "name": "TroyanCode - Club de Programación Competitiva",
+          "status": "inactivo",
+          "university": "Universidad Autónoma de Querétaro, Facultad de Informática",
+          "socialNetworks": [
+            {
+              "instagram": "https://www.instagram.com/troyan.code/"
+            }
+          ]
+        }
+      ]
     },
     "Quintana Roo": {
       "clubs": null
